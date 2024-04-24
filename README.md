@@ -2,11 +2,11 @@
 
 `tsc --build` with
 ```json
- "module": "ESNext",
+"module": "ESNext",
 "emitDeclarationOnly": false
 ```
 then `tsc --build` with
 ```json
- "module": "CommonJS",
+"module": "CommonJS",
 "emitDeclarationOnly": false
 ```
