@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "CommonJS",
     "composite": true,
     "incremental": true,
-    "lib": ["ESNext"],
+    "lib": [
+      "ESNext"
+    ],
     "importHelpers": true,
     "declarationMap": true,
     "declaration": true,
-    "emitDeclarationOnly": true,
-    "sourceMap": false,
+    "emitDeclarationOnly": false,
+    "sourceMap": true,
     "strict": true,
     "noImplicitAny": true,
     "skipLibCheck": true,
@@ -30,5 +32,7 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
-  "include": ["./src"]
+  "include": [
+    "./src"
+  ]
 }

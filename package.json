@@ -19,7 +19,7 @@
 	},
 	"license": "(MIT AND Apache-2.0)",
 	"author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
-	"main": "dist/index.cjs.js",
+	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"typings": "dist/index.d.ts",
 	"files": [
@@ -79,5 +79,8 @@
 	"peerDependencies": {
 		"react": "^17 || ^18",
 		"react-native": ">=0.60.0"
+	},
+	"dependencies": {
+		"react-native-fast-image": "https://github.com/Ching-Cheong-Lee/react-native-fast-image#087659f"
 	}
 }
